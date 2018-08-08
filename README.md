@@ -9,6 +9,10 @@ scikit-image
 pandas
 ```
 
+## Using our example
+
+If you would like to try out our example, download the repository and extract `mnist.rar` into the `data` folder. Then run `main.py`.
+
 ## Code overview
 
 ###### csvreader
