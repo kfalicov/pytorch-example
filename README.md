@@ -24,7 +24,7 @@ img_path,class
 ./data/mnist/img3.jpg,4
 ./data/mnist/img4.jpg,1
 ```
-Before we can use the class column in our network, we must one-hot encode it. This is an Nx1 matrix in which all values are 0, except the class's index, which is 1, and where N is the total number of classes. For `img1`, the one-hot encoding would be [0,0,0,0,1,0,0,0,0,0] (10x1 matrix, where index 5 is 1). This represents the ideal 0% confidence for all incorrect classes, and 100% confidence for the correct class.
+Before we can use the class column in our network, we must one-hot encode it. This is an Nx1 matrix in which all values are 0, except the class's index, which is 1, and where N is the total number of classes. For `img1`, the one-hot encoding would be [0,0,0,0,1,0,0,0,0,0] (10x1 matrix, where index 5 is 1). This represents the ideal 0% confidence for all incorrect classes, and 100% confidence for the correct class. To avoid type errors, make sure that these numbers are floats!
 
 ###### Layer
 The Layer class represents a single convolutional layer of the network, followed by a batch normalization and ReLU activation. This class is not used for fully connected layers.
