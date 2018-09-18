@@ -1,4 +1,6 @@
 ## Using an image database in pytorch and designing your own CNN
+by Paul Hughes and Kyle Falicov
+
 This repository includes a basic example of a pytorch image classification neural network on the MNIST dataset. This article stands as an explanation of why we took the approach that we did, as well as how, in hopes that it helps people understand how to design their own neural networks. More in-depth comments can be found in `main.py`.
 
 ###### Required modules
